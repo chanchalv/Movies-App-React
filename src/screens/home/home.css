@@ -1,0 +1,18 @@
+#title{
+    background-color: #ff9999;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    font-size: 1 rem;
+    text-align: center;
+}
+
+.flex-container{
+    width: 76%;
+    display: flex;
+    margin: 16px;
+}
+.left{
+    width: 24%;
+}
