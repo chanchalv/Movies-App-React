@@ -8,11 +8,14 @@
     text-align: center;
 }
 
-.flex-container{
-    width: 76%;
+.flex-container {
+    width: fit-content;
     display: flex;
     margin: 16px;
 }
 .left{
-    width: 24%;
+    width: 76%;
+}
+#flex-container-child{
+    margin-left: 80px;
 }

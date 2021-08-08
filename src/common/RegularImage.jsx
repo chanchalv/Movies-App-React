@@ -12,8 +12,10 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
+
     backgroundColor: theme.palette.background.paper,
   },
+
 }));
 export default function BasicImageList() {
   const classes = useStyles();
@@ -26,7 +28,7 @@ export default function BasicImageList() {
             <img src={item.poster_url} alt={item.title} className="moviesImages" />
             <ImageListItemBar
               title={item.title}
-              subtitle={<span>Release Dates: {item.release_date}</span>}
+              subtitle={<span>Release Dates: {item.release_date} </span>}
             />
           </ImageListItem>
         ))}
